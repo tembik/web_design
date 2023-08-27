@@ -281,10 +281,7 @@ footer {
 .formContent .formGrup .formInputButton {
   width: 78%;
   margin: 0 1%;
-  font-size: 18px;
-  /* padding: 5px; */
-  /* outline: none; */
-  border: none;
+  padding: 5px 0;  
 }
 
 .formContent .formGrup .formInputButton button {
@@ -293,6 +290,7 @@ footer {
   /* outline: none; */
   border: none;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .formContent .formGrup .formInputButton button:hover {
@@ -315,7 +313,7 @@ textarea {
   header {
     /*     width: 100%; */
     display: block;
-    min-height: 180px;
+    min-height: 225px;
     /*     text-align: center; */
   }
   .logoSection {
@@ -344,9 +342,7 @@ textarea {
     width: 98%;
     margin: 0 1%;
   }
-  /*   .pemisah {
-    width: 20%;
-  } */
+  
   .right-bar {
     width: 98%;
     margin: 0 1%;
