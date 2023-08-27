@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+header {
+  display: inline-flex;
+  width: 98%;
+  margin: 0 1%;
+  height: 50px;
+  align-items: center;
+  background-color: pink;
+  margin-bottom: 10px;
+}
+.logoSection {
+  /*   background-color: salmon; */
+  width: 8%;
+  margin: 0 1%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.menuSection {
+  /*   background-color: goldenrod; */
+  width: 88%;
+  margin: 0 1%;
+}
+
+.menuSection nav ul {
+  display: inline-flex;
+  float: right;
+}
+
+.menuSection nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.menuSection nav ul li a:hover {
+  color: salmon;
+  padding-bottom: 15px;
+  border-bottom: 2px solid gray;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  width: 100%;
+  /*   margin: 0 1%; */
+  display: inline-flex;
+  /*   background-color: red; */
+}
+
+.konten {
+  /*     width: 70%; */
+  width: 68%;
+  margin: 0 1%;
+  background-color: lightblue;
+}
+
+.right-bar {
+  /*     width: 30%; */
+  width: 28%;
+  margin: 0 1%;
+  background-color: orange;
+}
+.post {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.postJudul a {
+  color: black;
+  text-decoration: none;
+}
+.postAuthor {
+  font-style: italic;
+  font-size: 14px;
+}
+.postImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.postIsi {
+}
+
+.postContinue {
+  color: goldenrod;
+}
+
+.postContinue a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.about {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.aboutMe {
+}
+
+.aboutImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.search {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.searchGrup {
+  width: 100%;
+  display: inline-flex;
+}
+
+.searchGrup input {
+  width: 80%;
+  font-size: 18px;
+  padding: 7px;
+  outline: none;
+  border: 1px solid orange;
+}
+
+.searchGrup button {
+  width: 20%;
+  font-size: 18px;
+  padding: 7px;
+  background-color: goldenrod;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.follow {
+  /*   background-color: blue; */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.followIcons i {
+  cursor: pointer;
+  margin: auto 5px;
+}
+
+.popular {
+  margin-bottom: 10px;
+}
+
+.popularText {
+  text-align: center;
+}
+
+.popularContainer {
+  width: 100%;
+  display: inline-flex;
+}
+
+.popularContainer img {
+  width: 20%;
+  height: 70px;
+  object-fit: cover;
+}
+
+.popularContainer div {
+  width: 80%;
+  /*   background-color: blue; */
+}
+
+.popularContainer2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.popularContainer2 a:hover {
+  color: red;
+}
+
+.labels {
+  margin-bottom: 10px;
+}
+
+.labelsText {
+  text-align: center;
+}
+
+.labels div button {
+  background-color: goldenrod;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+
+.labels div button:hover {
+  background-color: gold;
+}
+
+.featured {
+  /*   background-color: red; */
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.featured h2 {
+  text-align: center;
+}
+
+.featuredContainer img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.featured h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.featured h2 a:hover {
+  color: red;
+}
+
+footer {
+  background-color: lightgreen;
+  text-align: center;
+}
+
+/* add post page  */
+
+.addContent {
+  /* background-color: blueviolet; */
+  width: 98%;
+  margin: 0 1%;
+}
+
+.formContent {
+  background-color: pink;
+  width: 70%;
+}
+
+.formContent .formGrup {
+  display: inline-flex;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.formContent .formGrup .formLabel {
+  width: 18%;
+  margin: 0 1%;
+  font-size: 20px;
+}
+
+.formContent .formGrup .formInput {
+  width: 78%;
+  margin: 0 1%;
+  font-size: 18px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid darkgrey;
+}
+
+.formContent .formGrup .formInput:focus {
+  background-color: lightgray;
+}
+
+.formContent .formGrup .formInputButton {
+  width: 78%;
+  margin: 0 1%;
+  font-size: 18px;
+  /* padding: 5px; */
+  /* outline: none; */
+  border: none;
+}
+
+.formContent .formGrup .formInputButton button {
+  font-size: 15px;
+  padding: 5px;
+  /* outline: none; */
+  border: none;
+  cursor: pointer;
+}
+
+.formContent .formGrup .formInputButton button:hover {
+  background-color: lightgray;
+}
+
+textarea {
+  resize: none;
+}
+
+/* single post page  */
+
+.singleKonten {
+  width: 88%;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    /*     width: 100%; */
+    display: block;
+    min-height: 180px;
+    /*     text-align: center; */
+  }
+  .logoSection {
+    width: 100%;
+    min-height: 40px;
+    text-align: center;
+  }
+  .menuSection {
+    width: 100%;
+    text-align: center;
+  }
+
+  .menuSection nav ul {
+    display: block;
+    float: none;
+  }
+
+  .menuSection nav ul li {
+    min-height: 50px;
+  }
+
+  main {
+    display: block;
+  }
+  .konten {
+    width: 98%;
+    margin: 0 1%;
+  }
+  /*   .pemisah {
+    width: 20%;
+  } */
+  .right-bar {
+    width: 98%;
+    margin: 0 1%;
+  }
+
+  /* add post page  */
+  .formContent {
+    width: 100%;
+  }
+
+  .formContent .formGrup {
+    display: block;
+  }
+
+  .formContent .formGrup .formLabel {
+    width: 94%;
+    margin: 0 1%;
+  }
+
+  .formContent .formGrup .formInput {
+    width: 94%;
+    margin: 0 1%;
+  }
+
+  .formContent .formGrup .formInputButton {
+    width: 94%;
+    margin: 0 1%;
+  }
+
+  /* single page  */
+  .singleKonten {
+    width: 98%;
+  }
+}
