@@ -203,6 +203,7 @@ main {
   cursor: pointer;
   border: none;
   font-size: 18px;
+  /* margin: 5px; */
 }
 
 .labels div button:hover {
